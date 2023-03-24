@@ -8,10 +8,10 @@
 package chart
 
 import (
-	"github.com/unidoc/unioffice"
-	"github.com/unidoc/unioffice/drawing"
-	"github.com/unidoc/unioffice/schema/soo/dml"
-	crt "github.com/unidoc/unioffice/schema/soo/dml/chart"
+	"github.com/Esword618/unioffice"
+	"github.com/Esword618/unioffice/drawing"
+	"github.com/Esword618/unioffice/schema/soo/dml"
+	crt "github.com/Esword618/unioffice/schema/soo/dml/chart"
 )
 
 // SurfaceChart is a 3D surface chart, viewed from the top-down.

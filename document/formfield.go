@@ -8,10 +8,11 @@
 package document
 
 import (
-	"github.com/unidoc/unioffice/schema/soo/wml"
+	"github.com/Esword618/unioffice/schema/soo/wml"
 )
 
 // FormFieldType is the type of the form field.
+//
 //go:generate stringer -type=FormFieldType
 type FormFieldType byte
 

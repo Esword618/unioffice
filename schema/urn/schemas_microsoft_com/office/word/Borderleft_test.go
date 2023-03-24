@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/unidoc/unioffice/schema/urn/schemas_microsoft_com/office/word"
+	"github.com/Esword618/unioffice/schema/urn/schemas_microsoft_com/office/word"
 )
 
 func TestBorderleftConstructor(t *testing.T) {

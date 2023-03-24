@@ -19,18 +19,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/unidoc/unioffice"
-	"github.com/unidoc/unioffice/color"
-	"github.com/unidoc/unioffice/common"
-	"github.com/unidoc/unioffice/common/license"
-	"github.com/unidoc/unioffice/vmldrawing"
-	"github.com/unidoc/unioffice/zippkg"
+	"github.com/Esword618/unioffice"
+	"github.com/Esword618/unioffice/common"
+	"github.com/Esword618/unioffice/common/license"
+	"github.com/Esword618/unioffice/vmldrawing"
+	"github.com/Esword618/unioffice/zippkg"
 
-	"github.com/unidoc/unioffice/schema/soo/dml"
-	crt "github.com/unidoc/unioffice/schema/soo/dml/chart"
-	sd "github.com/unidoc/unioffice/schema/soo/dml/spreadsheetDrawing"
-	"github.com/unidoc/unioffice/schema/soo/pkg/relationships"
-	"github.com/unidoc/unioffice/schema/soo/sml"
+	"github.com/Esword618/unioffice/schema/soo/dml"
+	crt "github.com/Esword618/unioffice/schema/soo/dml/chart"
+	sd "github.com/Esword618/unioffice/schema/soo/dml/spreadsheetDrawing"
+	"github.com/Esword618/unioffice/schema/soo/pkg/relationships"
+	"github.com/Esword618/unioffice/schema/soo/sml"
 )
 
 // ErrorNotFound is returned when something is not found
@@ -288,18 +287,18 @@ func (wb *Workbook) Epoch() time.Time {
 // Save writes the workbook out to a writer in the zipped xlsx format.
 func (wb *Workbook) Save(w io.Writer) error {
 	if !license.GetLicenseKey().IsLicensed() && flag.Lookup("test.v") == nil {
-		fmt.Println("Unlicensed version of UniOffice")
-		fmt.Println("- Get a license on https://unidoc.io")
+		//fmt.Println("Unlicensed version of UniOffice")
+		//fmt.Println("- Get a license on https://unidoc.io")
 		for _, sheet := range wb.Sheets() {
 			row1 := sheet.Row(1)
 			row1.SetHeight(50)
 			a1 := row1.Cell("A")
 
-			rt := a1.SetRichTextString()
-			run := rt.AddRun()
-			run.SetText("Unlicensed version of UniOffice - Get a license on https://unidoc.io")
-			run.SetBold(true)
-			run.SetColor(color.Red)
+			//rt := a1.SetRichTextString()
+			//run := rt.AddRun()
+			//run.SetText("Unlicensed version of UniOffice - Get a license on https://unidoc.io")
+			//run.SetBold(true)
+			//run.SetColor(color.Red)
 		}
 	}
 

@@ -8,7 +8,7 @@
 package common
 
 import (
-	"github.com/unidoc/unioffice/schema/soo/dml"
+	"github.com/Esword618/unioffice/schema/soo/dml"
 )
 
 // TableStyles contains document specific properties.

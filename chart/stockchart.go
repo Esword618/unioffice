@@ -8,8 +8,8 @@
 package chart
 
 import (
-	"github.com/unidoc/unioffice"
-	crt "github.com/unidoc/unioffice/schema/soo/dml/chart"
+	"github.com/Esword618/unioffice"
+	crt "github.com/Esword618/unioffice/schema/soo/dml/chart"
 )
 
 // StockChart is a 2D Stock chart.

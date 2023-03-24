@@ -14,8 +14,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/unidoc/unioffice"
-	"github.com/unidoc/unioffice/internal/wildcard"
+	"github.com/Esword618/unioffice"
+	"github.com/Esword618/unioffice/internal/wildcard"
 )
 
 func init() {
@@ -287,7 +287,7 @@ func checkIfsRanges(args []Result, sumRange bool, fnName string) Result {
 	return empty
 }
 
-//getIfsMatch returns an array of indexes of cells which meets all *IFS criterias
+// getIfsMatch returns an array of indexes of cells which meets all *IFS criterias
 func getIfsMatch(args []Result) []rangeIndex {
 	toLook := []rangeIndex{}
 	argsNum := len(args)

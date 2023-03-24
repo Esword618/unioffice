@@ -11,10 +11,11 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/unidoc/unioffice/spreadsheet/update"
+	"github.com/Esword618/unioffice/spreadsheet/update"
 )
 
 // BinOpType is the binary operation operator type
+//
 //go:generate stringer -type=BinOpType
 type BinOpType byte
 

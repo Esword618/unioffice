@@ -11,7 +11,7 @@ import (
 	"archive/zip"
 	"path"
 
-	"github.com/unidoc/unioffice/schema/soo/pkg/relationships"
+	"github.com/Esword618/unioffice/schema/soo/pkg/relationships"
 )
 
 // OnNewRelationshipFunc is called when a new relationship has been discovered.

@@ -10,8 +10,8 @@ package common
 import (
 	"fmt"
 
-	"github.com/unidoc/unioffice"
-	"github.com/unidoc/unioffice/schema/soo/ofc/extended_properties"
+	"github.com/Esword618/unioffice"
+	"github.com/Esword618/unioffice/schema/soo/ofc/extended_properties"
 )
 
 // AppProperties contains properties specific to the document and the
@@ -24,7 +24,7 @@ type AppProperties struct {
 func NewAppProperties() AppProperties {
 	p := AppProperties{x: extended_properties.NewProperties()}
 	p.SetCompany("FoxyUtils ehf")
-	p.SetApplication("github.com/unidoc/unioffice")
+	p.SetApplication("github.com/Esword618/unioffice")
 	p.SetDocSecurity(0)
 	p.SetLinksUpToDate(false)
 
@@ -36,7 +36,7 @@ func NewAppProperties() AppProperties {
 }
 
 // Application returns the name of the application that created the document.
-// For gooxml created documents, it defaults to github.com/unidoc/unioffice
+// For gooxml created documents, it defaults to github.com/Esword618/unioffice
 func (a AppProperties) Application() string {
 	if a.x.Application != nil {
 		return *a.x.Application
@@ -80,7 +80,7 @@ func (a AppProperties) X() *extended_properties.Properties {
 }
 
 // Company returns the name of the company that created the document.
-// For gooxml created documents, it defaults to github.com/unidoc/unioffice
+// For gooxml created documents, it defaults to github.com/Esword618/unioffice
 func (a AppProperties) Company() string {
 	if a.x.Company != nil {
 		return *a.x.Company

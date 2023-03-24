@@ -12,8 +12,8 @@ package chart
 import (
 	"encoding/xml"
 
-	"github.com/unidoc/unioffice"
-	"github.com/unidoc/unioffice/schema/soo/dml"
+	"github.com/Esword618/unioffice"
+	"github.com/Esword618/unioffice/schema/soo/dml"
 )
 
 type CT_SurfaceSer struct {

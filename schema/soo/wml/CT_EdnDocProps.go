@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"fmt"
 
-	"github.com/unidoc/unioffice"
+	"github.com/Esword618/unioffice"
 )
 
 type CT_EdnDocProps struct {

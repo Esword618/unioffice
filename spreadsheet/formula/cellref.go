@@ -8,8 +8,8 @@
 package formula
 
 import (
-	"github.com/unidoc/unioffice/spreadsheet/reference"
-	"github.com/unidoc/unioffice/spreadsheet/update"
+	"github.com/Esword618/unioffice/spreadsheet/reference"
+	"github.com/Esword618/unioffice/spreadsheet/update"
 )
 
 // CellRef is a reference to a single cell

@@ -7,7 +7,7 @@
 
 package spreadsheet
 
-import "github.com/unidoc/unioffice/schema/soo/sml"
+import "github.com/Esword618/unioffice/schema/soo/sml"
 
 // NumberFormat is a number formatting string that can be applied to a cell
 // style.

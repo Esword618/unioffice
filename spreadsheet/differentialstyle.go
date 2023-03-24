@@ -7,7 +7,7 @@
 
 package spreadsheet
 
-import "github.com/unidoc/unioffice/schema/soo/sml"
+import "github.com/Esword618/unioffice/schema/soo/sml"
 
 type DifferentialStyle struct {
 	x   *sml.CT_Dxf

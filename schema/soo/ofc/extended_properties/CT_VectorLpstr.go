@@ -12,8 +12,8 @@ package extended_properties
 import (
 	"encoding/xml"
 
-	"github.com/unidoc/unioffice"
-	"github.com/unidoc/unioffice/schema/soo/ofc/docPropsVTypes"
+	"github.com/Esword618/unioffice"
+	"github.com/Esword618/unioffice/schema/soo/ofc/docPropsVTypes"
 )
 
 type CT_VectorLpstr struct {

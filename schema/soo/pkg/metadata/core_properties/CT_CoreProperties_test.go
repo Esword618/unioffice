@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/unidoc/unioffice/schema/soo/pkg/metadata/core_properties"
+	"github.com/Esword618/unioffice/schema/soo/pkg/metadata/core_properties"
 )
 
 func TestCT_CorePropertiesConstructor(t *testing.T) {

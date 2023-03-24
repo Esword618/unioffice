@@ -13,9 +13,9 @@ import (
 	"encoding/xml"
 	"fmt"
 
-	"github.com/unidoc/unioffice"
-	"github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes"
-	"github.com/unidoc/unioffice/schema/soo/wml"
+	"github.com/Esword618/unioffice"
+	"github.com/Esword618/unioffice/schema/soo/ofc/sharedTypes"
+	"github.com/Esword618/unioffice/schema/soo/wml"
 )
 
 type CT_Textbox struct {

@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"fmt"
 
-	"github.com/unidoc/unioffice"
+	"github.com/Esword618/unioffice"
 )
 
 func ParseUnionST_ModelId(s string) (ST_ModelId, error) {

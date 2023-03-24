@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/unidoc/unioffice/schema/soo/schemaLibrary"
+	"github.com/Esword618/unioffice/schema/soo/schemaLibrary"
 )
 
 func TestCT_SchemaConstructor(t *testing.T) {

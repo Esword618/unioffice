@@ -10,12 +10,12 @@ library for creation and editing of docx/xlsx/pptx files.
 Requires **go1.8+**, builds are tested with 1.8, 1.9 and tip.
 
 [![Build Status](https://travis-ci.org/unidoc/unioffice.svg?branch=master)](https://travis-ci.org/unidoc/unioffice)
-[![GitHub (pre-)release](https://img.shields.io/github/release/unidoc/unioffice/all.svg)](https://github.com/unidoc/unioffice/releases)
+[![GitHub (pre-)release](https://img.shields.io/github/release/unidoc/unioffice/all.svg)](https://github.com/Esword618/unioffice/releases)
 [![License: AGPL v3](https://img.shields.io/badge/License-Dual%20AGPL%20v3/Commercial-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
-[![GoDoc](https://godoc.org/github.com/unidoc/unioffice?status.svg)](https://godoc.org/github.com/unidoc/unioffice)
+[![GoDoc](https://godoc.org/github.com/Esword618/unioffice?status.svg)](https://godoc.org/github.com/Esword618/unioffice)
 [![go 1.8+](https://img.shields.io/badge/go-1.8%2B-blue.svg)](http://golang.org)
 
-![https://github.com/unidoc/unioffice/](./_examples/preview.png "unioffice")
+![https://github.com/Esword618/unioffice/](./_examples/preview.png "unioffice")
 
 ## Status ##
 
@@ -41,7 +41,7 @@ Requires **go1.8+**, builds are tested with 1.8, 1.9 and tip.
 
 There has been a great deal of interest in performance numbers for spreadsheet
 creation/reading lately, so here are unioffice numbers for this
-[benchmark](https://github.com/unidoc/unioffice/tree/master/_examples/spreadsheet/lots-of-rows)
+[benchmark](https://github.com/Esword618/unioffice/tree/master/_examples/spreadsheet/lots-of-rows)
 which creates a sheet with 30k rows, each with 100 columns.
 
     creating 30000 rows * 100 cells took 3.92506863s
@@ -55,41 +55,41 @@ DOCX/XLSX/PPTX.
 
 ## Installation ##
     
-    go get github.com/unidoc/unioffice/
-    go build -i github.com/unidoc/unioffice/...
+    go get github.com/Esword618/unioffice/
+    go build -i github.com/Esword618/unioffice/...
 
 ## Document Examples ##
 
-- [Simple Text Formatting](https://github.com/unidoc/unioffice/tree/master/_examples/document/simple) Text font colors, sizes, highlighting, etc.
-- [Auto Generated Table of Contents](https://github.com/unidoc/unioffice/tree/master/_examples/document/toc) Creating document headings with an auto generated TOC based off of the headingds
-- [Floating Image](https://github.com/unidoc/unioffice/tree/master/_examples/document/image) Placing an image somewhere on a page, absolutely positioned with different text wrapping.
-- [Header & Footer](https://github.com/unidoc/unioffice/tree/master/_examples/document/header-footer) Creating headers and footers including page numbering.
-- [Multiple Headers & Footers](https://github.com/unidoc/unioffice/tree/master/_examples/document/header-footer-multiple) Using different headers and footers depending on document section.
-- [Inline Tables](https://github.com/unidoc/unioffice/tree/master/_examples/document/tables) Adding an table with and without borders.
-- [Using Existing Word Document as a Template](https://github.com/unidoc/unioffice/tree/master/_examples/document/use-template) Opening a document as a template to re-use the styles created in the document.
-- [Filling out Form Fields](https://github.com/unidoc/unioffice/tree/master/_examples/document/fill-out-form) Opening a document with embedded form fields, filling out the fields and saving the result as  a new filled form.
-- [Editing an existing document](https://github.com/unidoc/unioffice/tree/master/_examples/document/edit-document) Open an existing document and replace/remove text without modifying formatting.
+- [Simple Text Formatting](https://github.com/Esword618/unioffice/tree/master/_examples/document/simple) Text font colors, sizes, highlighting, etc.
+- [Auto Generated Table of Contents](https://github.com/Esword618/unioffice/tree/master/_examples/document/toc) Creating document headings with an auto generated TOC based off of the headingds
+- [Floating Image](https://github.com/Esword618/unioffice/tree/master/_examples/document/image) Placing an image somewhere on a page, absolutely positioned with different text wrapping.
+- [Header & Footer](https://github.com/Esword618/unioffice/tree/master/_examples/document/header-footer) Creating headers and footers including page numbering.
+- [Multiple Headers & Footers](https://github.com/Esword618/unioffice/tree/master/_examples/document/header-footer-multiple) Using different headers and footers depending on document section.
+- [Inline Tables](https://github.com/Esword618/unioffice/tree/master/_examples/document/tables) Adding an table with and without borders.
+- [Using Existing Word Document as a Template](https://github.com/Esword618/unioffice/tree/master/_examples/document/use-template) Opening a document as a template to re-use the styles created in the document.
+- [Filling out Form Fields](https://github.com/Esword618/unioffice/tree/master/_examples/document/fill-out-form) Opening a document with embedded form fields, filling out the fields and saving the result as  a new filled form.
+- [Editing an existing document](https://github.com/Esword618/unioffice/tree/master/_examples/document/edit-document) Open an existing document and replace/remove text without modifying formatting.
 
 ## Spreadsheet Examples ##
-- [Simple](https://github.com/unidoc/unioffice/tree/master/_examples/spreadsheet/simple) A simple sheet with a few cells
-- [Named Cells](https://github.com/unidoc/unioffice/tree/master/_examples/spreadsheet/named-cells) Different ways of referencing rows and cells
-- [Cell Number/Date/Time Formats](https://github.com/unidoc/unioffice/tree/master/_examples/spreadsheet/number-date-time-formats) Creating cells with various number/date/time formats
-- [Line Chart](https://github.com/unidoc/unioffice/tree/master/_examples/spreadsheet/line-chart)/[Line Chart 3D](https://github.com/unidoc/unioffice/tree/master/_examples/spreadsheet/line-chart-3d) Line Charts
-- [Bar Chart](https://github.com/unidoc/unioffice/tree/master/_examples/spreadsheet/bar-chart) Bar Charts
-- [Mutiple Charts](https://github.com/unidoc/unioffice/tree/master/_examples/spreadsheet/multiple-charts) Multiple charts on a single sheet
-- [Named Cell Ranges](https://github.com/unidoc/unioffice/tree/master/_examples/spreadsheet/named-ranges) Naming cell ranges
-- [Merged Cells](https://github.com/unidoc/unioffice/tree/master/_examples/spreadsheet/merged) Merge and unmerge cells
-- [Conditional Formatting](https://github.com/unidoc/unioffice/tree/master/_examples/spreadsheet/conditional-formatting) Conditionally formatting cells, styling, gradients, icons, data bar
-- [Complex](https://github.com/unidoc/unioffice/tree/master/_examples/spreadsheet/complex) Multiple charts, auto filtering and conditional formatting
-- [Borders](https://github.com/unidoc/unioffice/tree/master/_examples/spreadsheet/borders) Individual cell borders and rectangular borders around a range of cells.
-- [Validation](https://github.com/unidoc/unioffice/tree/master/_examples/spreadsheet/validation) Data validation including combo box dropdowns.
-- [Frozen Rows/Cols](https://github.com/unidoc/unioffice/tree/master/_examples/spreadsheet/freeze-rows-cols) A sheet with a frozen header column and row
+- [Simple](https://github.com/Esword618/unioffice/tree/master/_examples/spreadsheet/simple) A simple sheet with a few cells
+- [Named Cells](https://github.com/Esword618/unioffice/tree/master/_examples/spreadsheet/named-cells) Different ways of referencing rows and cells
+- [Cell Number/Date/Time Formats](https://github.com/Esword618/unioffice/tree/master/_examples/spreadsheet/number-date-time-formats) Creating cells with various number/date/time formats
+- [Line Chart](https://github.com/Esword618/unioffice/tree/master/_examples/spreadsheet/line-chart)/[Line Chart 3D](https://github.com/Esword618/unioffice/tree/master/_examples/spreadsheet/line-chart-3d) Line Charts
+- [Bar Chart](https://github.com/Esword618/unioffice/tree/master/_examples/spreadsheet/bar-chart) Bar Charts
+- [Mutiple Charts](https://github.com/Esword618/unioffice/tree/master/_examples/spreadsheet/multiple-charts) Multiple charts on a single sheet
+- [Named Cell Ranges](https://github.com/Esword618/unioffice/tree/master/_examples/spreadsheet/named-ranges) Naming cell ranges
+- [Merged Cells](https://github.com/Esword618/unioffice/tree/master/_examples/spreadsheet/merged) Merge and unmerge cells
+- [Conditional Formatting](https://github.com/Esword618/unioffice/tree/master/_examples/spreadsheet/conditional-formatting) Conditionally formatting cells, styling, gradients, icons, data bar
+- [Complex](https://github.com/Esword618/unioffice/tree/master/_examples/spreadsheet/complex) Multiple charts, auto filtering and conditional formatting
+- [Borders](https://github.com/Esword618/unioffice/tree/master/_examples/spreadsheet/borders) Individual cell borders and rectangular borders around a range of cells.
+- [Validation](https://github.com/Esword618/unioffice/tree/master/_examples/spreadsheet/validation) Data validation including combo box dropdowns.
+- [Frozen Rows/Cols](https://github.com/Esword618/unioffice/tree/master/_examples/spreadsheet/freeze-rows-cols) A sheet with a frozen header column and row
 
 ## Presentation Examples ##
 
-- [Simple Text Boxes](https://github.com/unidoc/unioffice/tree/master/_examples/presentation/simple) Simple text boxes and shapes
-- [Images](https://github.com/unidoc/unioffice/tree/master/_examples/presentation/image) Simple image insertion
-- [Template](https://github.com/unidoc/unioffice/tree/master/_examples/presentation/use-template/simple) Creating a presentation from a template
+- [Simple Text Boxes](https://github.com/Esword618/unioffice/tree/master/_examples/presentation/simple) Simple text boxes and shapes
+- [Images](https://github.com/Esword618/unioffice/tree/master/_examples/presentation/image) Simple image insertion
+- [Template](https://github.com/Esword618/unioffice/tree/master/_examples/presentation/use-template/simple) Creating a presentation from a template
 
 ## Raw Types ##
 

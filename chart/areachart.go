@@ -7,7 +7,7 @@
 
 package chart
 
-import crt "github.com/unidoc/unioffice/schema/soo/dml/chart"
+import crt "github.com/Esword618/unioffice/schema/soo/dml/chart"
 
 // AreaChart is an area chart that has a shaded area underneath a curve.
 type AreaChart struct {

@@ -5,10 +5,10 @@ package main
 import (
 	"log"
 
-	"github.com/unidoc/unioffice/common"
-	"github.com/unidoc/unioffice/document"
-	"github.com/unidoc/unioffice/measurement"
-	"github.com/unidoc/unioffice/schema/soo/wml"
+	"github.com/Esword618/unioffice/common"
+	"github.com/Esword618/unioffice/document"
+	"github.com/Esword618/unioffice/measurement"
+	"github.com/Esword618/unioffice/schema/soo/wml"
 )
 
 func main() {

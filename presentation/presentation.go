@@ -21,17 +21,16 @@ import (
 	"os"
 	"path"
 
-	"github.com/unidoc/unioffice"
-	"github.com/unidoc/unioffice/color"
-	"github.com/unidoc/unioffice/common"
-	"github.com/unidoc/unioffice/common/license"
-	"github.com/unidoc/unioffice/measurement"
-	"github.com/unidoc/unioffice/schema/soo/dml"
-	crt "github.com/unidoc/unioffice/schema/soo/dml/chart"
-	"github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes"
-	"github.com/unidoc/unioffice/schema/soo/pkg/relationships"
-	"github.com/unidoc/unioffice/schema/soo/pml"
-	"github.com/unidoc/unioffice/zippkg"
+	"github.com/Esword618/unioffice"
+	"github.com/Esword618/unioffice/common"
+	"github.com/Esword618/unioffice/common/license"
+	"github.com/Esword618/unioffice/measurement"
+	"github.com/Esword618/unioffice/schema/soo/dml"
+	crt "github.com/Esword618/unioffice/schema/soo/dml/chart"
+	"github.com/Esword618/unioffice/schema/soo/ofc/sharedTypes"
+	"github.com/Esword618/unioffice/schema/soo/pkg/relationships"
+	"github.com/Esword618/unioffice/schema/soo/pml"
+	"github.com/Esword618/unioffice/zippkg"
 )
 
 // Presentation is the a presentation base document.
@@ -414,18 +413,18 @@ func (p *Presentation) save(w io.Writer, isTemplate bool) error {
 	}
 
 	if !license.GetLicenseKey().IsLicensed() && flag.Lookup("test.v") == nil {
-		fmt.Println("Unlicensed version of UniOffice")
-		fmt.Println("- Get a license on https://unidoc.io")
+		//fmt.Println("Unlicensed version of UniOffice")
+		//fmt.Println("- Get a license on https://unidoc.io")
 		slide := p.Slides()[0]
 		tb := slide.AddTextBox()
 		tb.Properties().SetPosition(0, 0)
 		tb.Properties().LineProperties().SetWidth(2 * measurement.Inch)
-		p := tb.AddParagraph()
-		r := p.AddRun()
-		r.SetText("Unlicensed version of UniOffice - Get a license on https://unidoc.io")
-		r.Properties().SetSize(12 * measurement.Point)
-		r.Properties().SetBold(true)
-		r.Properties().SetSolidFill(color.Red)
+		//p := tb.AddParagraph()
+		//r := p.AddRun()
+		//r.SetText("Unlicensed version of UniOffice - Get a license on https://unidoc.io")
+		//r.Properties().SetSize(12 * measurement.Point)
+		//r.Properties().SetBold(true)
+		//r.Properties().SetSolidFill(color.Red)
 	}
 
 	if isTemplate {

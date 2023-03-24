@@ -8,8 +8,8 @@
 package spreadsheet
 
 import (
-	"github.com/unidoc/unioffice"
-	"github.com/unidoc/unioffice/schema/soo/sml"
+	"github.com/Esword618/unioffice"
+	"github.com/Esword618/unioffice/schema/soo/sml"
 )
 
 // IconScale maps values to icons.

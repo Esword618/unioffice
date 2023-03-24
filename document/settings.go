@@ -8,8 +8,8 @@
 package document
 
 import (
-	"github.com/unidoc/unioffice"
-	"github.com/unidoc/unioffice/schema/soo/wml"
+	"github.com/Esword618/unioffice"
+	"github.com/Esword618/unioffice/schema/soo/wml"
 )
 
 // Settings controls the document settings.

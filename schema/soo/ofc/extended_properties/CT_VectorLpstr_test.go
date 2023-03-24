@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/unidoc/unioffice/schema/soo/ofc/extended_properties"
+	"github.com/Esword618/unioffice/schema/soo/ofc/extended_properties"
 )
 
 func TestCT_VectorLpstrConstructor(t *testing.T) {

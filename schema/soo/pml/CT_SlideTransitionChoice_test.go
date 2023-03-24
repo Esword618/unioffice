@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/unidoc/unioffice/schema/soo/pml"
+	"github.com/Esword618/unioffice/schema/soo/pml"
 )
 
 func TestCT_SlideTransitionChoiceConstructor(t *testing.T) {

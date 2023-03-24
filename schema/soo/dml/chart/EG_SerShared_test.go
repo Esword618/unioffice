@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/unidoc/unioffice/schema/soo/dml/chart"
+	"github.com/Esword618/unioffice/schema/soo/dml/chart"
 )
 
 func TestEG_SerSharedConstructor(t *testing.T) {

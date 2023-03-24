@@ -12,7 +12,7 @@ package content_types
 import (
 	"regexp"
 
-	"github.com/unidoc/unioffice"
+	"github.com/Esword618/unioffice"
 )
 
 const ST_ContentTypePattern = `^\p{Latin}+/.*$`

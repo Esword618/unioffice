@@ -13,10 +13,10 @@ import (
 	"encoding/xml"
 	"strconv"
 
-	"github.com/unidoc/unioffice"
-	"github.com/unidoc/unioffice/schema/urn/schemas_microsoft_com/office/excel"
-	"github.com/unidoc/unioffice/schema/urn/schemas_microsoft_com/office/powerpoint"
-	"github.com/unidoc/unioffice/schema/urn/schemas_microsoft_com/office/word"
+	"github.com/Esword618/unioffice"
+	"github.com/Esword618/unioffice/schema/urn/schemas_microsoft_com/office/excel"
+	"github.com/Esword618/unioffice/schema/urn/schemas_microsoft_com/office/powerpoint"
+	"github.com/Esword618/unioffice/schema/urn/schemas_microsoft_com/office/word"
 )
 
 type Shape struct {

@@ -10,8 +10,8 @@ package common
 import (
 	"time"
 
-	"github.com/unidoc/unioffice/schema/soo/ofc/custom_properties"
-	"github.com/unidoc/unioffice/schema/soo/ofc/docPropsVTypes"
+	"github.com/Esword618/unioffice/schema/soo/ofc/custom_properties"
+	"github.com/Esword618/unioffice/schema/soo/ofc/docPropsVTypes"
 )
 
 // CustomProperties contains document specific properties.

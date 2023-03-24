@@ -10,7 +10,7 @@ package common
 import (
 	"fmt"
 
-	"github.com/unidoc/unioffice/schema/soo/pkg/relationships"
+	"github.com/Esword618/unioffice/schema/soo/pkg/relationships"
 )
 
 // Relationship is a relationship within a .rels file.

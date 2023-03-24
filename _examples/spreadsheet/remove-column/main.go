@@ -1,11 +1,12 @@
 // Copyright 2017 FoxyUtils ehf. All rights reserved.
 package main
+
 // This example demonstrates flattening all formulas from an input Excel file and outputs the flattened values to a new xlsx.
 
 import (
 	"log"
 
-	"github.com/unidoc/unioffice/spreadsheet"
+	"github.com/Esword618/unioffice/spreadsheet"
 )
 
 func main() {

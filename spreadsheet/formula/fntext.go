@@ -14,8 +14,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/unidoc/unioffice/internal/wildcard"
-	"github.com/unidoc/unioffice/spreadsheet/format"
+	"github.com/Esword618/unioffice/internal/wildcard"
+	"github.com/Esword618/unioffice/spreadsheet/format"
 )
 
 func init() {

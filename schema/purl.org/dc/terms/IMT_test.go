@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/unidoc/unioffice/schema/purl.org/dc/terms"
+	"github.com/Esword618/unioffice/schema/purl.org/dc/terms"
 )
 
 func TestIMTConstructor(t *testing.T) {

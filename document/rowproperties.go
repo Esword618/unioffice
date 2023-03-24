@@ -8,10 +8,10 @@
 package document
 
 import (
-	"github.com/unidoc/unioffice"
-	"github.com/unidoc/unioffice/measurement"
-	"github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes"
-	"github.com/unidoc/unioffice/schema/soo/wml"
+	"github.com/Esword618/unioffice"
+	"github.com/Esword618/unioffice/measurement"
+	"github.com/Esword618/unioffice/schema/soo/ofc/sharedTypes"
+	"github.com/Esword618/unioffice/schema/soo/wml"
 )
 
 // RowProperties are the properties for a row within a table

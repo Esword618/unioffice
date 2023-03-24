@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/unidoc/unioffice/schema/soo/sml"
+	"github.com/Esword618/unioffice/schema/soo/sml"
 )
 
 func TestCT_CustomFilterConstructor(t *testing.T) {

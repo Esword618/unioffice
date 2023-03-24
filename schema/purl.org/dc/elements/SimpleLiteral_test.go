@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/unidoc/unioffice/schema/purl.org/dc/elements"
+	"github.com/Esword618/unioffice/schema/purl.org/dc/elements"
 )
 
 func TestSimpleLiteralConstructor(t *testing.T) {

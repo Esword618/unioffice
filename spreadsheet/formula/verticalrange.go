@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/unidoc/unioffice/spreadsheet/update"
+	"github.com/Esword618/unioffice/spreadsheet/update"
 )
 
 // VerticalRange is a range expression that when evaluated returns a list of Results from references like AA:IJ (all cells from columns AA to IJ).

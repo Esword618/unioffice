@@ -9,7 +9,7 @@
 
 package core_properties
 
-import "github.com/unidoc/unioffice"
+import "github.com/Esword618/unioffice"
 
 // init registers constructor functions for dynamically creating elements based off the XML namespace and name
 func init() {
